@@ -125,3 +125,60 @@ print(w, x, y, z, sep='-----')
 
 Hasil yang di tampilkan
 ![separator](https://user-images.githubusercontent.com/123666514/215316785-8cbf6a9c-1cbb-4302-83d4-dd3fd002620f.PNG)
+
+### Penggunan String format ###
+
+Fungsi format() berfungsi untuk melakukan pengaturan format string yang akan dicetak atau ditampilkan ke monitor. Contoh syntax : format(value[, format_spec])
+
+Program
+```python
+# menampilkan varible 0 dan variable 10 yang di pangkatkan
+print(0, 10**0)
+print(0, 10**1)
+print(0, 10**2)
+print(0, 10**3)
+print(0, 10**4)
+print(0, 10**5)
+print(0, 10**6)
+print(0, 10**7)
+print(0, 10**8)
+print(0, 10**9)
+print(0, 10**10)
+
+# menampilkan varible 0 dengan rata kanan sebanyak 3 space dan variable 10 yang di pangkatkan dengan rata kanan sebanyak 16 space dari variable 0 (0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(0, 10**1))
+print('{0:>3} {1:>16}'.format(0, 10**2))
+print('{0:>3} {1:>16}'.format(0, 10**3))
+print('{0:>3} {1:>16}'.format(0, 10**4))
+print('{0:>3} {1:>16}'.format(0, 10**5))
+print('{0:>3} {1:>16}'.format(0, 10**6))
+print('{0:>3} {1:>16}'.format(0, 10**7))
+print('{0:>3} {1:>16}'.format(0, 10**8))
+print('{0:>3} {1:>16}'.format(0, 10**9))
+print('{0:>3} {1:>16}'.format(0, 10**10))
+
+```
+
+## Latihan 3 ##
+
+```python
+print("Hello ini script python")
+print()
+print('{0:>12}'.format('*'))
+print('{0:>12}'.format('*'*2), end='')
+print('*')
+print('{0:>12}'.format('*'*3), end='')
+print('*'*2)
+print('{0:>12}'.format('*'*4), end='')
+print('*'*3)
+print('{0:>12}'.format('*'*5), end='')
+print('*'*4)
+print('{0:>12}'.format('*'*4), end='')
+print('*'*3)
+print('{0:>12}'.format('*'*3), end='')
+print('*'*2)
+print('{0:>12}'.format('*'*2), end='')
+print('*')
+print('{0:>12}'.format('*')
+```
