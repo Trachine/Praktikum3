@@ -153,8 +153,34 @@ print('{0:>3} {1:>16}'.format(0, 10**9))
 print('{0:>3} {1:>16}'.format(0, 10**10))
 ```
 Hasil yang di tampilkan
-
 ![string format](https://user-images.githubusercontent.com/123666514/215322454-48cb6ecc-7bff-41d3-8160-25c5288acb64.PNG)
+
+## Latihan 2 ##
+
+Membuat Program dengan menggunakan formating dan konversi nilai variable
+
+program
+```python
+# input nilai variable
+a = input("Masukan nilai a : ")
+b = input("Masukan nilai b : ")
+
+# cetak nilai variable
+print ("Variable a = ",a)
+print ("Variable b = ",b)
+
+# cetak hasil operasi kedua variable dengan String Format
+print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+
+# konversi nilai variable
+a = int(a)
+b = int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+
+Hasil yang di tampilkan
+![3 1](https://user-images.githubusercontent.com/123666514/215323251-3394480e-b83b-42ff-ba07-daea7b6c25ee.PNG)
 
 ## Latihan 3 ##
 
@@ -191,5 +217,4 @@ print()
 print('{0:>12}'.format('*'))
 ```
 Hasil yang di tampilkan
-
 ![diamond](https://user-images.githubusercontent.com/123666514/215322534-3f506a02-401e-493a-929a-10c10e85464a.PNG)
