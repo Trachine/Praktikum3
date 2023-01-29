@@ -11,8 +11,6 @@ Program yang di buat
 ```python
 # input nilai variable
 r = float(input("Masukan nilai jari-jari : "))
-
-# menetapkan variable
 phi = 3.14
 luas = phi*r*r
 
@@ -35,8 +33,6 @@ Program yang di buat
 ```python
 # input nilai variable
 r = float(input("Masukan nilai jari-jari : "))
-
-# menetapkan variable
 phi = 3.14
 keliling = 2*phi*r
 
@@ -61,8 +57,6 @@ Program yang di buat
 ```python
 # input nilai variable
 r = float(input("Masukan nilai jari-jari : "))
-
-# menetapkan variable
 phi = 3.14
 luas = phi*r*r
 keliling = 2*phi*r
@@ -82,7 +76,7 @@ Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di
 
 Program
 ```python
-# menampilkan varible dengan mengosongkan karakter setelah variable
+# menampilkan karakter dengan mengosongkan karakter terakhir(yang seharusnya ganti garis)
 print('A', end='')
 print('B', end='')
 print('C', end='')
@@ -90,7 +84,7 @@ print('C', end='')
 # menampilkan ganti baris
 print()
 
-# menampilkan varible
+# menampilkan karakter
 print('X')
 print('Y')
 print('Z')
@@ -132,7 +126,7 @@ Fungsi format() berfungsi untuk melakukan pengaturan format string yang akan dic
 
 Program
 ```python
-# menampilkan varible 0 dan variable 10 yang di pangkatkan
+# menampilkan karakter 0 dan karakter 10 yang di pangkatkan
 print(0, 10**0)
 print(0, 10**1)
 print(0, 10**2)
@@ -145,7 +139,7 @@ print(0, 10**8)
 print(0, 10**9)
 print(0, 10**10)
 
-# menampilkan varible 0 dengan rata kanan sebanyak 3 space dan variable 10 yang di pangkatkan dengan rata kanan sebanyak 16 space dari variable 0 (0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
+# menampilkan karakter 0 dengan rata kanan diposisi 3 dan karakter 10 yang rata kanan diposisi 16 dari posisi 3 lalu karakter dipangkatkan(0 dan 1 menunjukan letak index, dini 0 = 0 dan 1 = 10)
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(0, 10**1))
 print('{0:>3} {1:>16}'.format(0, 10**2))
@@ -157,28 +151,36 @@ print('{0:>3} {1:>16}'.format(0, 10**7))
 print('{0:>3} {1:>16}'.format(0, 10**8))
 print('{0:>3} {1:>16}'.format(0, 10**9))
 print('{0:>3} {1:>16}'.format(0, 10**10))
-
 ```
 
 ## Latihan 3 ##
 
 ```python
+# menampilkan kalimat
 print("Hello ini script python")
+
+# menampilkan ganti baris
 print()
+
+#menampilkan karakter * dengan rata kanan diposisi 12
 print('{0:>12}'.format('*'))
-print('{0:>12}'.format('*'*2), end='')
-print('*')
-print('{0:>12}'.format('*'*3), end='')
-print('*'*2)
-print('{0:>12}'.format('*'*4), end='')
-print('*'*3)
-print('{0:>12}'.format('*'*5), end='')
-print('*'*4)
-print('{0:>12}'.format('*'*4), end='')
-print('*'*3)
-print('{0:>12}'.format('*'*3), end='')
-print('*'*2)
-print('{0:>12}'.format('*'*2), end='')
-print('*')
-print('{0:>12}'.format('*')
+
+#menampilkan karakter * dengan rata kanan diposisi 12 lalu dipangkatkan 2 dan menampikan karakter terakhir * yang dipangkatkan lalu menampilkan garis ganti
+print('{0:>12}'.format('*'*2), end='*'*1)
+print()
+print('{0:>12}'.format('*'*3), end='*'*2)
+print()
+print('{0:>12}'.format('*'*4), end='*'*3)
+print()
+print('{0:>12}'.format('*'*5), end='*'*4)
+print()
+print('{0:>12}'.format('*'*4), end='*'*3)
+print()
+print('{0:>12}'.format('*'*3), end='*'*2)
+print()
+print('{0:>12}'.format('*'*2), end='*'*1)
+print()
+
+#menampilkan karakter * dengan rata kanan diposisi 12
+print('{0:>12}'.format('*'))
 ```
