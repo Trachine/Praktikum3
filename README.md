@@ -152,9 +152,15 @@ print('{0:>3} {1:>16}'.format(0, 10**8))
 print('{0:>3} {1:>16}'.format(0, 10**9))
 print('{0:>3} {1:>16}'.format(0, 10**10))
 ```
+Hasil yang di tampilkan
+
+![string format](https://user-images.githubusercontent.com/123666514/215322454-48cb6ecc-7bff-41d3-8160-25c5288acb64.PNG)
 
 ## Latihan 3 ##
 
+Membuat program yang menghasilkan gambar seperti diamond dengan string formating
+
+program
 ```python
 # menampilkan kalimat
 print("Hello ini script python")
@@ -184,3 +190,6 @@ print()
 #menampilkan karakter * dengan rata kanan diposisi 12
 print('{0:>12}'.format('*'))
 ```
+Hasil yang di tampilkan
+
+![diamond](https://user-images.githubusercontent.com/123666514/215322534-3f506a02-401e-493a-929a-10c10e85464a.PNG)
