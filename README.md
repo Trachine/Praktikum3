@@ -74,6 +74,8 @@ Hasil yang di tampilkan
 ### Penggunaan end ##
 Parameter end berfungsi untuk mengganti karakter terakhir bawaan yang dicetak di layar. Jadi secara bawaan, setiap kali kita memanggil fungsi print() untuk mencetak sesuatu, python akan mencetak karakter ganti baris () di setiap output.
 
+![1](https://user-images.githubusercontent.com/123666514/215324820-1b2aedd1-b5fc-4c1b-8012-1bfaa74f427b.PNG)
+
 Program
 ```python
 # menampilkan karakter dengan mengosongkan karakter terakhir(yang seharusnya ganti garis)
